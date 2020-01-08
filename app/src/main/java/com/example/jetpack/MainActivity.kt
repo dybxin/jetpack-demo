@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         // 第二种方式
         val binding: ActivityMainBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
         binding.user = User("si", "li")
 
         // Fragment ListView RecyclerView 中使用Data Binding的方式
